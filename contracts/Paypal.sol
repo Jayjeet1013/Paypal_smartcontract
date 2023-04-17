@@ -6,7 +6,8 @@ contract  Paypal {
 // Define owner of the smart contract
 
 address public owner;
-construtor (){
+
+constructor(){
         owner= msg.sender;
 }
 
